@@ -1,15 +1,15 @@
 // Correctly use the inquirer package 
 const inquirer = require("inquirer");
 const fs = require("fs");
-const utils = require("utils");
+const util = require("util");
 const generateMarkdown = require("./utils/generateMarkdown");
 
-const writeAsync = utils.promisify(fs.writeFile);
+const writeAsync = util.promisify(fs.writeFile);
 
 // array of questions for user
 const questions = [
     {
-        message: "What is your name?",
+        message: "What is your project name?",
         name: "name"
     },
     {
@@ -30,7 +30,7 @@ async function init() {
 
 
 
-    writeToFile(answers.name + ".md", answers);
+    writeToFile(answers.name + ".md", mdString);
 }
 
 // function call to initialize program
