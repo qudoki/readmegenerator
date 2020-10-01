@@ -9,13 +9,39 @@ const writeAsync = util.promisify(fs.writeFile);
 // array of questions for user
 const questions = [
     {
-        message: "What is your project name?",
+        message: "What is the name of your project?",
         name: "name"
     },
     {
-        message: "What is your age?",
+        message: "What is the project description (include technologies used)?",
         name: "name"
-    }
+    },
+    {
+        message: "What should the user enter to install dependencies?",
+        name: "name"
+    },
+    {
+        message: "What should the user enter to run tests?",
+        name: "name"
+    },
+    {
+        message: "What are the contribution guidelines?",
+        name: "name"
+    },
+    {
+        message: "What should the user know about contributing to the repository?",
+        name: "name"
+    },
+    {
+        message: "What type of license would you like?",
+        name: "name",
+        type: "list",
+        choices: ["MIT"]
+    },
+    {
+        message: "Do you have any other comments?",
+        name: "name"
+    },
 ];
 
 // function to write README file
