@@ -10,46 +10,46 @@ const writeAsync = util.promisify(fs.writeFile);
 const questions = [
     {
         message: "Hi! What's your name?",
-        name: "name"
+        name: "username"
     },
     {
         message: "What is the name of your project?",
-        name: "name"
+        name: "project"
     },
     {
         message: "What is the project description (include technologies used)?",
-        name: "name"
+        name: "description"
     },
-    {
-        message: "What should the user enter to install dependencies?",
-        name: "name"
-    },
-    {
-        message: "What should the user enter to run tests?",
-        name: "name"
-    },
-    {
-        message: "What are the contribution guidelines?",
-        name: "name"
-    },
-    {
-        message: "What should the user know about contributing to the repository?",
-        name: "name"
-    },
-    {
-        message: "What type of license would you like?",
-        name: "name",
-        type: "list",
-        choices: ["MIT", "Apache License 2.0", "BSD 3-Clause", "BSD 2-Clause", "GNU General Public License", "GNU Library", "Common Dev. & Distribution License", "Eclipse Public License 2.0"]
-    },
-    {
-        message: "What year(s) should be on the license?",
-        name: "name"
-    },
-    {
-        message: "Do you have any other comments?",
-        name: "name"
-    },
+    // {
+    //     message: "What should the user enter to install dependencies?",
+    //     name: "name"
+    // },
+    // {
+    //     message: "What should the user enter to run tests?",
+    //     name: "name"
+    // },
+    // {
+    //     message: "What are the contribution guidelines?",
+    //     name: "name"
+    // },
+    // {
+    //     message: "What should the user know about contributing to the repository?",
+    //     name: "name"
+    // },
+    // {
+    //     message: "What type of license would you like?",
+    //     name: "name",
+    //     type: "list",
+    //     choices: ["MIT", "Apache License 2.0", "BSD 3-Clause", "BSD 2-Clause", "GNU General Public License", "GNU Library", "Common Dev. & Distribution License", "Eclipse Public License 2.0"]
+    // },
+    // {
+    //     message: "What year(s) should be on the license?",
+    //     name: "name"
+    // },
+    // {
+    //     message: "Do you have any other comments?",
+    //     name: "name"
+    // },
 ];
 
 // function to write README file
@@ -63,8 +63,8 @@ async function init() {
     const mdString = generateMarkdown(answers);
 
 
-
-    writeToFile(answers.name + ".md", mdString);
+    console.log(answers);
+    writeToFile(answers.project + ".md", mdString);
 }
 
 // function call to initialize program
