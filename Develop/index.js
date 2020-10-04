@@ -20,36 +20,36 @@ const questions = [
         message: "What is the project description (include technologies used)?",
         name: "description"
     },
-    // {
-    //     message: "What should the user enter to install dependencies?",
-    //     name: "name"
-    // },
-    // {
-    //     message: "What should the user enter to run tests?",
-    //     name: "name"
-    // },
-    // {
-    //     message: "What are the contribution guidelines?",
-    //     name: "name"
-    // },
-    // {
-    //     message: "What should the user know about contributing to the repository?",
-    //     name: "name"
-    // },
-    // {
-    //     message: "What type of license would you like?",
-    //     name: "name",
-    //     type: "list",
-    //     choices: ["MIT", "Apache License 2.0", "BSD 3-Clause", "BSD 2-Clause", "GNU General Public License", "GNU Library", "Common Dev. & Distribution License", "Eclipse Public License 2.0"]
-    // },
-    // {
-    //     message: "What year(s) should be on the license?",
-    //     name: "name"
-    // },
-    // {
-    //     message: "Do you have any other comments?",
-    //     name: "name"
-    // },
+    {
+        message: "What should the user enter to install dependencies?",
+        name: "dependencies"
+    },
+    {
+        message: "What should the user enter to run tests?",
+        name: "index"
+    },
+    {
+        message: "What are the contribution guidelines?",
+        name: "contribution"
+    },
+    {
+        message: "What should the user know about contributing to the repository?",
+        name: "request"
+    },
+    {
+        message: "What type of license would you like?",
+        name: "license",
+        type: "list",
+        choices: ["MIT", "Apache License 2.0", "BSD 3-Clause", "BSD 2-Clause", "GNU General Public License", "GNU Library", "Common Dev. & Distribution License", "Eclipse Public License 2.0"]
+    },
+    {
+        message: "What year(s) should be on the license?",
+        name: "year"
+    },
+    {
+        message: "Do you have any other comments?",
+        name: "comments"
+    },
 ];
 
 // function to write README file
