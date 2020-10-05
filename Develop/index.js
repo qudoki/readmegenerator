@@ -70,7 +70,6 @@ async function init() {
     const answers = await inquirer.prompt(questions);
     const mdString = generateMarkdown(answers);
 
-
     console.log(answers);
     writeToFile(answers.project + ".md", mdString);
 }
