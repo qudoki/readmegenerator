@@ -1,7 +1,7 @@
 # SampleProject 
 
 ### Description: 
- liasjeliajesf
+ lots of stuff
 
 
 # Table of Contents 
@@ -16,7 +16,7 @@
 
 ## Installation: 
 
-- You can install the package dependencies by entering the following command: lseijfl
+- You can install the package dependencies by entering the following command: npm init
 
 
 ## Usage: 
@@ -37,7 +37,7 @@
  
 ## License: Apache License 2.0 
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg")]
+![License](https://img.shields.io/badge/license-Apache%202-blue")
 
     Copyright 2020 Quinn Dong 
 
