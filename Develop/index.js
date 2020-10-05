@@ -33,8 +33,8 @@ const questions = [
         name: "dependencies"
     },
     {
-        message: "What should the user enter to run tests?",
-        name: "index"
+        message: "What should the user enter to run the program or tests?",
+        name: "running"
     },
     {
         message: "What are the contribution guidelines?",

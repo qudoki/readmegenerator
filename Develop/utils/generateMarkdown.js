@@ -3,7 +3,7 @@ function generateMarkdown(data) {
   return `# ${data.project} \n
 ### Description: \n ${data.description}
 \n
-# Table of Contents \n
+# Table of Contents
 - [Installation] (https://github.com/qudoki/readmegenerator/blob/master/Develop/SampleProject.md#installation)
 - [Usage] (https://github.com/qudoki/readmegenerator/blob/master/Develop/SampleProject.md#usage)
 - [Tests] (https://github.com/qudoki/readmegenerator/blob/master/Develop/SampleProject.md#usage)
@@ -11,23 +11,23 @@ function generateMarkdown(data) {
 - [Questions] (https://github.com/qudoki/readmegenerator/blob/master/Develop/SampleProject.md#questions)
 - [License] (https://github.com/qudoki/readmegenerator/blob/master/Develop/SampleProject.md#license)
 \n
-## Installation: \n
+## Installation:
 - This package requires node.js and Inquirer. You can install the package dependencies by entering the following command: "${data.dependencies}"
 \n
-## Usage: \n
-- In order to use or test this package, please enter the following command: "${data.index}" and follow the prompts.
+## Usage:
+- In order to use or test this package, please enter the following command: "${data.running}" and follow the prompts.
 \n
-## Contributing: \n
-- In most cases, please refer to this document: ![Contributor Covenant](https://www.contributor-covenant.org/) \n
+## Contributing:
+- In most cases, please refer to this document: [Contributor Covenant](https://www.contributor-covenant.org/) \n
 - ${data.contribution}
 - ${data.request}
 \n
-## Questions: \n
+## Questions:
 If you have any questions, please feel free to reach me via Github or email below.
-![Github Profile](https://github.com/${data.github})
-![Email Address](${data.email})
+[Github Profile](https://github.com/${data.github})
+[Email Address](${data.email})
 \n 
-## License: ${data.license} \n
+## License: ${data.license}
 ${whichLicense(data)};
 `
 }

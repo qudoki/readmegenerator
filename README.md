@@ -19,14 +19,14 @@ This application utilizes node.js to generate README markdown documentation for 
 - In order to use or test this package, please enter the following command: "node index.js" and follow the prompts.
 
 ## Contributing: 
-- In most cases, please refer to this document: ![Contributor Covenant](https://www.contributor-covenant.org/) 
+- In most cases, please refer to this document: [Contributor Covenant](https://www.contributor-covenant.org/) 
 - Please contact the author if you would like to make a contribution.
 - Requests can be made by using the contact information below.
 
 ## Questions: 
 If you have any questions, please feel free to reach me via Github or email below.
-![Github Profile](https://github.com/qudoki)
-![Email Address](qdong327@gmail.com)
+[Github Profile](https://github.com/qudoki)
+[Email Address](qdong327@gmail.com)
 
 ## License: MIT 
 ![License](https://img.shields.io/badge/license-MIT-green")
