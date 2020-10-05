@@ -27,7 +27,7 @@ If you have any questions, please feel free to reach me via Github or email belo
 [Github Profile](https://github.com/${data.github})\n
 [Email Address]<${data.email}>
 \n 
-## License: ${data.license}
+## License: \n ${data.license}
 ${whichLicense(data)};
 `
 }

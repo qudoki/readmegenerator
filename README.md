@@ -19,7 +19,7 @@ A Node.js application to generate a distinct markdown file of "README" documenta
 #### Screenshot
 ![Example with Console Log Showing User Answers](Develop/assets/ExampleConsoleLog.png)
 
-## Contributing: 
+## Contributions: 
 - In most cases, please refer to this document: [Contributor Covenant](https://www.contributor-covenant.org/) 
 - Please contact the author if you would like to make a contribution.
 - Requests can be made by using the contact information below.
