@@ -1,16 +1,15 @@
 # Read-Me Markdown File Generator
 
 ### Description: 
-A Node.js application to generate README.md documentation for any repository.
-This application utilizes node.js to generate README markdown documentation for any repository. It is created using Javascript ES6, asynchronous functions, the Inquirer package, and Node.js
+A Node.js application to generate a distinct markdown file of "README" documentation for any repository. It is created using Javascript ES6, asynchronous/await functions, the Inquirer package, and Node.js.
 
 # Table of Contents 
-- [Installation] (https://github.com/qudoki/readmegenerator/blob/master/Develop/SampleProject.md#installation)
-- [Usage] (https://github.com/qudoki/readmegenerator/blob/master/Develop/SampleProject.md#usage)
-- [Tests] (https://github.com/qudoki/readmegenerator/blob/master/Develop/SampleProject.md#usage)
-- [Contributing] (https://github.com/qudoki/readmegenerator/blob/master/Develop/SampleProject.md#contributions)
-- [Questions] (https://github.com/qudoki/readmegenerator/blob/master/Develop/SampleProject.md#questions)
-- [License] (https://github.com/qudoki/readmegenerator/blob/master/Develop/SampleProject.md#license)
+- [Installation](https://github.com/qudoki/readmegenerator/blob/master/README.md#installation)
+- [Usage](https://github.com/qudoki/readmegenerator/blob/master/README.md#usage)
+- [Tests](https://github.com/qudoki/readmegenerator/blob/master/README.md#usage)
+- [Contributing](https://github.com/qudoki/readmegenerator/blob/master/README.md#contributions)
+- [Questions](https://github.com/qudoki/readmegenerator/blob/master/README.md#questions)
+- [License](https://github.com/qudoki/readmegenerator/blob/master/README.md#license)
 
 ## Installation: 
 - This package requires node.js and Inquirer. You can install the package dependencies by entering the following command: "npm init"
