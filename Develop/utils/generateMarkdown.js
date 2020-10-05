@@ -20,7 +20,7 @@ function generateMarkdown(data) {
 ## Contributing: \n
 - In most cases, please refer to this document: ![Contributor Covenant](https://www.contributor-covenant.org/) \n
 - ${data.contribution}
-- ${data.response}
+- ${data.request}
 \n
 ## Questions: \n
 If you have any questions, please feel free to reach me via Github or email below.
