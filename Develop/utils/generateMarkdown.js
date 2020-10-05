@@ -4,12 +4,12 @@ function generateMarkdown(data) {
 ### Description: \n ${data.description}
 \n
 # Table of Contents
-- [Installation] (https://github.com/qudoki/readmegenerator/blob/master/Develop/SampleProject.md#installation)
-- [Usage] (https://github.com/qudoki/readmegenerator/blob/master/Develop/SampleProject.md#usage)
-- [Tests] (https://github.com/qudoki/readmegenerator/blob/master/Develop/SampleProject.md#usage)
-- [Contributing] (https://github.com/qudoki/readmegenerator/blob/master/Develop/SampleProject.md#contributions)
-- [Questions] (https://github.com/qudoki/readmegenerator/blob/master/Develop/SampleProject.md#questions)
-- [License] (https://github.com/qudoki/readmegenerator/blob/master/Develop/SampleProject.md#license)
+- [Installation](https://github.com/qudoki/readmegenerator/blob/master/Develop/SampleProject.md#installation)
+- [Usage](https://github.com/qudoki/readmegenerator/blob/master/Develop/SampleProject.md#usage)
+- [Tests](https://github.com/qudoki/readmegenerator/blob/master/Develop/SampleProject.md#usage)
+- [Contributing](https://github.com/qudoki/readmegenerator/blob/master/Develop/SampleProject.md#contributions)
+- [Questions](https://github.com/qudoki/readmegenerator/blob/master/Develop/SampleProject.md#questions)
+- [License](https://github.com/qudoki/readmegenerator/blob/master/Develop/SampleProject.md#license)
 \n
 ## Installation:
 - This package requires node.js and Inquirer. You can install the package dependencies by entering the following command: "${data.dependencies}"

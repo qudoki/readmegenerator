@@ -13,6 +13,7 @@ A Node.js application to generate a distinct markdown file of "README" documenta
 
 ## Installation: 
 - This package requires node.js and Inquirer. You can install the package dependencies by entering the following command: "npm init"
+- This will install all package dependencies.
 
 ## Usage: 
 - In order to use or test this package, please enter the following command: "node index.js" and follow the prompts.
