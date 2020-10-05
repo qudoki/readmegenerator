@@ -17,6 +17,8 @@ This application utilizes node.js to generate README markdown documentation for 
 
 ## Usage: 
 - In order to use or test this package, please enter the following command: "node index.js" and follow the prompts.
+#### Screenshot
+![Example with Console Log Showing User Answers](Develop/assets/ExampleConsoleLog.png)
 
 ## Contributing: 
 - In most cases, please refer to this document: [Contributor Covenant](https://www.contributor-covenant.org/) 
@@ -26,7 +28,7 @@ This application utilizes node.js to generate README markdown documentation for 
 ## Questions: 
 If you have any questions, please feel free to reach me via Github or email below.
 [Github Profile](https://github.com/qudoki)
-[Email Address](qdong327@gmail.com)
+[Email Address]<qdong327@gmail.com>
 
 ## License: MIT 
 ![License](https://img.shields.io/badge/license-MIT-green")

@@ -25,7 +25,7 @@ function generateMarkdown(data) {
 ## Questions:
 If you have any questions, please feel free to reach me via Github or email below.
 [Github Profile](https://github.com/${data.github})
-[Email Address](${data.email})
+[Email Address]<${data.email}>
 \n 
 ## License: ${data.license}
 ${whichLicense(data)};

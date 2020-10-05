@@ -1,42 +1,40 @@
 # SampleProject 
 
 ### Description: 
- lots of stuff
+ Stuff
 
 
-# Table of Contents 
-
+# Table of Contents
 - [Installation] (https://github.com/qudoki/readmegenerator/blob/master/Develop/SampleProject.md#installation)
 - [Usage] (https://github.com/qudoki/readmegenerator/blob/master/Develop/SampleProject.md#usage)
+- [Tests] (https://github.com/qudoki/readmegenerator/blob/master/Develop/SampleProject.md#usage)
 - [Contributing] (https://github.com/qudoki/readmegenerator/blob/master/Develop/SampleProject.md#contributions)
-- [Tests] (https://github.com/qudoki/readmegenerator/blob/master/Develop/SampleProject.md#tests)
 - [Questions] (https://github.com/qudoki/readmegenerator/blob/master/Develop/SampleProject.md#questions)
 - [License] (https://github.com/qudoki/readmegenerator/blob/master/Develop/SampleProject.md#license)
 
 
-## Installation: 
-
-- You can install the package dependencies by entering the following command: npm init
-
-
-## Usage: 
+## Installation:
+- This package requires node.js and Inquirer. You can install the package dependencies by entering the following command: "npaes"
 
 
-
-## Contributing: 
-
-
-
-## Tests: 
+## Usage:
+- In order to use or test this package, please enter the following command: "aisejl" and follow the prompts.
 
 
+## Contributing:
+- In most cases, please refer to this document: [Contributor Covenant](https://www.contributor-covenant.org/) 
 
-## Questions: 
+- alseijf
+- aseflij
 
+
+## Questions:
+If you have any questions, please feel free to reach me via Github or email below.
+[Github Profile](https://github.com/qudoki)
+[Email Address]<Email@email.com>
 
  
-## License: Apache License 2.0 
-
+## License: Apache License 2.0
 ![License](https://img.shields.io/badge/license-Apache%202-blue")
 
     Copyright 2020 Quinn Dong 
