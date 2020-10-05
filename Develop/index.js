@@ -9,8 +9,16 @@ const writeAsync = util.promisify(fs.writeFile);
 // array of questions for user
 const questions = [
     {
-        message: "Hi! What's your name?",
+        message: "Hi! What's your full name?",
         name: "username"
+    },
+    {
+        message: "What is your email address?",
+        name: "email"
+    },
+    {
+        message: "What is your Github profile?",
+        name: "github"
     },
     {
         message: "What is the name of your project?",
@@ -40,7 +48,7 @@ const questions = [
         message: "What type of license would you like?",
         name: "license",
         type: "list",
-        choices: ["MIT", "Apache License 2.0", "BSD 3-Clause", "BSD 2-Clause", "GNU General Public License", "GNU Library", "Common Dev. & Distribution License", "Eclipse Public License 2.0"]
+        choices: ["MIT", "Apache License 2.0", "BSD 3-Clause", "BSD 2-Clause", "GNU General Public License", "Common Dev. & Distribution License", "Eclipse Public License 2.0"]
     },
     {
         message: "What year(s) should be on the license?",
