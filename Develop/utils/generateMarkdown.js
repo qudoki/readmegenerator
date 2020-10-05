@@ -4,12 +4,12 @@ function generateMarkdown(data) {
 ### Description: \n ${data.description}
 \n
 # Table of Contents \n
-1. [Installation] (#installation)
-2. [Usage] (#usage)
-3. [Contributing] (#contributions)
-4. [Tests] (#tests)
-5. [Questions] (#questions)
-6. [License] (#license)
+-[Installation] (https://github.com/qudoki/readmegenerator/#installation)
+-[Usage] (#usage)
+-[Contributing] (#contributions)
+-[Tests] (#tests)
+-[Questions] (#questions)
+-[License] (#license)
 \n
 ## Installation:  \n
 \n
