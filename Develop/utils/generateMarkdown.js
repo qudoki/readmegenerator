@@ -4,7 +4,7 @@ function generateMarkdown(data) {
 ### Description: \n ${data.description}
 \n
 # Table of Contents \n
--[Installation] (https://github.com/qudoki/readmegenerator/#installation)
+-[Installation] (https://github.com/qudoki/readmegenerator/blob/master/Develop/SampleProject.md#installation)
 -[Usage] (#usage)
 -[Contributing] (#contributions)
 -[Tests] (#tests)
